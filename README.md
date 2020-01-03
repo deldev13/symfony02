@@ -1,5 +1,6 @@
 ## MON PROJET SYMFONY
 
+
 ## INSTALLATION DE SYMFONY
 
 https://symfony.com/doc/current/setup.html#creating-symfony-applications
@@ -24,6 +25,8 @@ AVEC LA CONSOLE
 AJOUTER LE FICHIER .htaccess
 
     composer require symfony/apache-pack
+
+
 
 On va créer 2 controllers
     
@@ -64,3 +67,15 @@ On va créer 2 controllers
     created: src/Repository/UserRepository.php
     updated: src/Entity/User.php
     updated: config/packages/security.yaml
+
+## CREATION DU CODE POUR LE LOGIN
+
+    php bin/console make:auth
+
+    1
+    
+    LoginFormAuthenticator
+
+    SecurityController
+
+    
