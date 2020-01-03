@@ -53,3 +53,14 @@ On va créer 2 controllers
 
     Created database `symfony02` for connection named default
 
+## CREATION DE ENTITE User AVEC SYMFONY
+
+    php bin/console make:user
+
+    REPONDRE AVEC LES CHOIX PAR DEFAUT...
+
+    
+    created: src/Entity/User.php
+    created: src/Repository/UserRepository.php
+    updated: src/Entity/User.php
+    updated: config/packages/security.yaml
