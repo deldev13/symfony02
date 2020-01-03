@@ -89,7 +89,9 @@ On va créer 2 controllers
 
     php bin/console doctrine:migrations:migrate
 
+
 SI ON A MARIA DB QUI NE GERE PAS LE TYPE JSON
+
     https://mariadb.com/kb/en/json-data-type/
 
         SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JSON NOT NULL, password VARCHAR(255) NOT NULL, UNIQUE INDEX UNIQ_8D93D649E7927C7' at line 1
